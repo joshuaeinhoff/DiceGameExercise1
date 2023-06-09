@@ -7,3 +7,8 @@ dice2 = random.randint(1, 6)
 print("Die 2: " + str(dice2))
 totalValue = dice1 + dice2
 print("Total value: " + str(totalValue))
+
+if totalValue > 7:
+    print("You won.")
+else:
+    print("You lost.")
